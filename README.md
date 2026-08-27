@@ -1,7 +1,9 @@
 DESAFIO CEGI
 
+Link para o repositório: https://github.com/the-mileo/Desafio-CEGI-Programacao
+
 Como testar o jogo:
--CLone esse repositório para o computador de teste
+- Clone esse repositório para o computador de teste
 - No aplicativo Unity Hub, ache a opção Add e clique nela
 - Selecione a pasta que você clonou
 - Abra o projeto baixado

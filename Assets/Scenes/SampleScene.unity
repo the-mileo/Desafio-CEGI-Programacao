@@ -890,7 +890,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &386049522
 RectTransform:
@@ -933,7 +933,7 @@ MonoBehaviour:
   - {fileID: 859084353}
   - {fileID: 1455560556}
   - {fileID: 1902037519}
-  gold: 999
+  gold: 900
   goldText: {fileID: 718261161}
 --- !u!1001 &410129545
 PrefabInstance:
@@ -3854,7 +3854,7 @@ MonoBehaviour:
   - {fileID: 633546330}
   - {fileID: 138653598}
   - {fileID: 74253908}
-  inventoryManager: {fileID: 0}
+  inventoryManager: {fileID: 386049523}
 --- !u!1 &2057329035
 GameObject:
   m_ObjectHideFlags: 0
@@ -4421,6 +4421,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot
       objectReference: {fileID: 0}
+    - target: {fileID: 3390388490700364311, guid: 58cb3845a95d9644fa6e18499ef8d083, type: 3}
+      propertyPath: itemSO
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3390388490700364311, guid: 58cb3845a95d9644fa6e18499ef8d083, type: 3}
+      propertyPath: quantity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8545861553101286381, guid: 58cb3845a95d9644fa6e18499ef8d083, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4524,5 +4532,5 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 978086048}
-  - {fileID: 2019336490}
   - {fileID: 386049522}
+  - {fileID: 2019336490}

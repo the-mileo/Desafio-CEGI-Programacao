@@ -19,7 +19,7 @@ public class InventorySlot : MonoBehaviour
             quantityText.text = quantity.ToString();
         } else
         {
-            itemImage.gameObject.SetActive(true);
+            itemImage.gameObject.SetActive(false);
             quantityText.text = "";
         }
 

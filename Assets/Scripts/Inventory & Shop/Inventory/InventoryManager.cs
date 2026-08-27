@@ -27,7 +27,7 @@ public class InventoryManager : MonoBehaviour
         {
             foreach(var slot in itemSlots)
             {
-                if (slot.itemSO != null)
+                if (slot.itemSO == null)
                 {
                     slot.itemSO = itemSO;
                     slot.quantity = quantity;
